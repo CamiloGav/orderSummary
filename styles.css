@@ -1,0 +1,123 @@
+:root {
+--pale-blue: #e0e8ff;
+--bright-blue: #3829e0;
+--very-pale-blue: #f5f7ff;
+--desaturated-blue: #7280a7;
+--dark-blue: #1f2f56;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+.main-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #dfe8ff;
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    padding: 90px 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.card-container {
+    width: 320px;
+    height: 560px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card-container-img img{
+    width: 100%;
+    height: 170px;
+}
+.card-container-text h3 {
+    margin: 25px 0;
+    font-size: 2.2rem;
+    color: var(--dark-blue);
+}
+.card-container-text p {
+    padding: 0 30px;
+    font-size: 1.6rem;
+    color: var(--desaturated-blue);
+}
+.card-container-plan {
+    width: 80%;
+    background: #f8f9fe;
+    display: flex;
+    border-radius: 16px;
+    align-items: center;
+    margin: 20px auto;
+    padding: 15px 10px;
+}
+.card-container-plan img {
+    width: 50px;
+    height: 50px;
+    background: var(--desaturated-blue);
+    border-radius: 50%; 
+}
+.card-container-plan p {
+    margin: 5px 25px 5px 15px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+.card-container-plan a {
+    color: var(--bright-blue);
+    font-weight: 900;
+    font-size: 1.4rem;
+    padding-left: 10px;
+}
+.card-container-plan a:hover {
+    color: var(--desaturated-blue);
+    cursor: pointer;
+    text-decoration: none;
+}
+.card-container-plan p:nth-child(2) {
+    color: var(--desaturated-blue);
+}
+.card-container-buttons {
+    width: 84%;
+    display: inline-block;
+}
+.card-container-buttons button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: var(--bright-blue);
+    color: var(--very-pale-blue);
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    box-shadow: 2px 5px 20px #b4b5d1;
+}
+.card-container-buttons button:hover {
+    background: #766cf1;
+    cursor: pointer;
+}
+.card-container-buttons a {
+    width: 100%;
+    height: 50px;
+    color: var(--desaturated-blue);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.card-container-buttons a:hover{
+    color: var(--dark-blue);
+    cursor: pointer;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+    background: #dfe8ff;
+}
+.attribution a {
+    color: #3e52a3;
+}
