@@ -1,3 +1,6 @@
+.main-container {
+    height: 900px;
+}
 .card-container {
     width: 440px;
     height: 670px;
@@ -28,4 +31,7 @@
 }
 .card-container-buttons {
     width: 80%;
+}
+.attribution {
+    display: none;
 }
